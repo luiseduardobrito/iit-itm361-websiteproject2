@@ -17,6 +17,7 @@ h3 {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
   line-height: 1.25;
+  margin: 0 0 0.75rem;
 }
 
 h1 {
@@ -113,4 +114,134 @@ audio {
   display: block;
   max-width: 100%;
   width: 100%;
+}
+
+.page-index main {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 52rem;
+  padding: 2.5rem 0;
+  width: 88%;
+}
+
+.page-index article > p:first-of-type {
+  font-size: 1.25rem;
+  max-width: 40rem;
+}
+
+.page-index section {
+  border-left: 0.25rem solid #0d7377;
+  margin: 2rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.page-index figure {
+  margin: 1.5rem -4%;
+}
+
+.page-index ol {
+  list-style: none;
+  margin-left: 0;
+}
+
+.page-index ol li {
+  margin: 0 0 0.65rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.page-index ol li::before {
+  color: #0d7377;
+  content: counter(list-item) ".";
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+}
+
+.page-resume main {
+  margin: 2rem auto;
+  padding: 0;
+  width: 960px;
+}
+
+.page-resume main > article {
+  background-color: #ffffff;
+  box-shadow: 0 0.5rem 1.5rem rgba(18, 35, 63, 0.08);
+  padding: 2.5rem 3rem;
+}
+
+.page-resume {
+  font-size: 1rem;
+}
+
+.page-resume main > article > header {
+  margin-bottom: 1.75rem;
+}
+
+.page-resume main > article > header figure {
+  width: 12rem;
+}
+
+.page-resume section {
+  margin-bottom: 1.5rem;
+}
+
+.page-resume section article {
+  border-top: 0.06rem solid #d7d2c8;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.page-resume time {
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.page-hobbies main {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 2.5rem 0;
+  width: 92%;
+}
+
+.page-hobbies article > p:first-of-type {
+  max-width: 46rem;
+}
+
+.page-hobbies section:first-of-type {
+  background-color: #e8eef2;
+  margin: 2rem 0;
+  padding: 1.75rem 6%;
+}
+
+.page-hobbies figure img {
+  width: 100%;
+}
+
+.page-hobbies ol {
+  list-style: none;
+  margin-left: 0;
+}
+
+.page-hobbies ol li {
+  background-color: #ffffff;
+  margin: 0 0 0.75rem;
+  padding: 0.75rem 1rem 0.75rem 2.75rem;
+  position: relative;
+}
+
+.page-hobbies ol li::before {
+  color: #0d7377;
+  content: counter(list-item);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+  left: 0.85rem;
+  position: absolute;
+  top: 0.7rem;
+}
+
+.page-hobbies figcaption {
+  color: #6b4f3a;
 }
