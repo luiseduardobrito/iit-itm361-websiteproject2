@@ -34,3 +34,83 @@ h3 {
 a {
   color: #0d7377;
 }
+
+a:hover,
+a:focus {
+  color: #095c5f;
+}
+
+body > header {
+  background-color: #12233f;
+  color: #ffffff;
+  padding: 0.85rem 1.25rem;
+}
+
+body > header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 0.5rem 1.75rem;
+}
+
+body > header nav a,
+body > header nav a:visited {
+  color: #ffffff;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+body > header nav a:hover,
+body > header nav a:focus {
+  color: #7fd3d6;
+}
+
+body > header nav a[aria-current="page"] {
+  border-bottom: 0.12rem solid #7fd3d6;
+  color: #ffffff;
+}
+
+main {
+  padding: 2rem 6%;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+main ul,
+main ol {
+  margin: 0 0 1.25rem 1.25rem;
+}
+
+main ul {
+  list-style: disc;
+}
+
+main ol {
+  list-style: decimal;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0 0 1.5rem;
+}
+
+figcaption {
+  color: #4a5568;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+audio {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
